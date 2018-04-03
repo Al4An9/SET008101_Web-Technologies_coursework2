@@ -4,7 +4,7 @@ Blog app using Node.js, Express, Passport and Mongoose. You can Register, Login,
 
 ### Installation
 
-Loginapp requires Node.js & MongoDb to run.
+Requires Node.js & MongoDb to run.
 
 ```sh
 $ npm install
