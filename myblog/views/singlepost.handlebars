@@ -1,0 +1,14 @@
+<h1 class="page-header">{{post.title}}</h1>
+<h6> Written by {{author}} on {{post.createdAt}}</h6>
+<div class="row">
+  <div class="col-sm-6 col-sm-offset-3">
+    <h5><a href="{{post.url}}" target="_blank">{{post.url}}</a></h5>
+    <div class="thumbnail">
+    <p>{{post.summary}}</p>
+    <hr>
+    {{#if user}}
+    		<a class="btn btn-sm btn-outline-secondary" href="/posts/posts/edit/{{post._id}}">Edit</a>
+  			<a class="btn btn-sm btn-outline-danger" href="/posts/posts/delete/{{post._id}}">Delete</a>
+    {{/if}}
+  </div>
+</div>

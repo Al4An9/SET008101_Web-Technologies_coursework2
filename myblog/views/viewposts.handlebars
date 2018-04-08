@@ -1,0 +1,14 @@
+<h2 class="page-header">View Posts Titles</h2>
+<div class="row">
+  <div class="col-sm-8 col-sm-offset-2">
+    <ul>
+  {{#each posts}}
+  <li class="list-group-item">
+    <a href="/posts/posts/{{this.id}}" class="lead">{{this.title}}</a>
+    <br>
+    <h7> Created on {{this.createdAt}}</h7>
+  </li>
+  {{/each}}
+	</ul>
+  </div>
+</div>
