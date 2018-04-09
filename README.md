@@ -3,7 +3,7 @@ Gives user the functionality to register, login , logout.
 You can also create a new post, update existing posts and delete existing posts.
 
 ## Technologies
-
+* Bootstrap framework
 * Node.js
 * Express
 * Express Messages, Session, Connect Flash & Validation
