@@ -6,13 +6,16 @@ var UserSchema = mongoose.Schema({
 	username: {
 		type: String,
 		index: true,
-		unique: true
+		unique:true,
+		dropDups: true
 	},
 	password: {
 		type: String
 	},
 	email: {
-		type: String
+		type: String,
+		unique:true,
+		dropDups: true
 	},
 	name: {
 		type: String
