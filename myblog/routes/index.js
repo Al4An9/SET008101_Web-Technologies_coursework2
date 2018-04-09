@@ -10,7 +10,6 @@ router.get('/',ensureAuthenticated, function(req, res){
       console.log(err);
     } else {
       res.render('viewposts', {
-        title:'Posts',
         posts: posts
       });
     }
