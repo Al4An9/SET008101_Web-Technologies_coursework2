@@ -20,7 +20,7 @@
     "express-validator": "^5.1.1",
     "mongodb": "*",
     "mongoose": "*",
-    "npm": "^5.8.0",
+    "npm": "^6.13.4",
     "passport": "*",
     "passport-http": "*",
     "passport-local": "*",
